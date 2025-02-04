@@ -8,7 +8,7 @@ public:
             int temp = arr[i];
             arr[i] = maxRight;
             maxRight = max(maxRight, temp);
-        }
+        } 
         
         return arr;
     }
